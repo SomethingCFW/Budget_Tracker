@@ -1,7 +1,9 @@
 #DISCLAMIER
+
 This was primarily built for a common app project; however, it's still useful and will be used later on.
 
 #Budget Tracker
+
 A simple Flask web app to track income and expenses across different accounts(HYSA, ROTH, and CHECKING).
 
 #Features
