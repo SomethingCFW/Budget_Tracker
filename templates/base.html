@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}Budget Tracker{% endblock %}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; max-width: 700px; }
+        header { margin-bottom: 20px; }
+        nav a { margin-right: 10px; text-decoration: none; color: #333; }
+        nav a:hover { text-decoration: underline; }
+        .income { color: green; }
+        .expense { color: red; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Budget Tracker</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('transactions') }}">Transactions</a>
+            <a href="{{ url_for('add_transaction') }}">Add Transaction</a>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+</body>
+</html>
