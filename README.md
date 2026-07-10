@@ -1,6 +1,4 @@
-#DISCLAMIER
-
-This was primarily built for a common app project; however, it's still useful and will be used later on.
+Project to replace the subscription giants.
 
 #Budget Tracker
 
